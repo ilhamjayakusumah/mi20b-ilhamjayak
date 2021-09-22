@@ -1,10 +1,10 @@
 <?php 
  
 $mybiodata = array(
-    "Nama : Ilham Jaya Kusumah",
-    "Alamat : Kawali",
-    "email : kusumah@gmail.com",
-    "No HP : 085711372583"
+    "Ilham Jaya Kusumah",
+    "Kawali",
+    "kusumah@gmail.com",
+    "085711372583"
 );
 
 $matkul = array (
@@ -24,13 +24,14 @@ $matkul = array (
     
 <h2>Biodata</h2>
 
+
 <?php
 
     // pemanggilan array 
-    echo $mybiodata[0]; echo "<br>";
-    echo $mybiodata[1]; echo "<br>";
-    echo $mybiodata[2]; echo "<br>";
-    echo $mybiodata[3]; echo "<br><br>";
+    echo "Name : ".$mybiodata[0]; echo "<br>";
+    echo "Adress: ".$mybiodata[1]; echo "<br>";
+    echo "Email : ".$mybiodata[2]; echo "<br>";
+    echo "Number Phone : ".$mybiodata[3]; echo "<br><br>";
 
     echo "Mata Kuliah yang saya pelajari : <br>";
 
