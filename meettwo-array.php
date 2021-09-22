@@ -10,7 +10,7 @@ $mybiodata = array(
 $matkul = array (
     "1. System Design Analysis",
     "2. WEB Programming",
-    "3. English Enviroment"
+    "3. English Environment"
 
 );
  
